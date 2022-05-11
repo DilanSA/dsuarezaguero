@@ -1,4 +1,4 @@
-|   [ABOUT ME](README.md)  |  [WORKS](works.md)  |  [REPOSITORIES](repositories.md)  |  [BLOG](blog.md)  | 
+|   [HOME](README.md)  |  [EXPERIENCE](experience.md)  |  [PRODUCTION](production.md)  |   [REPOSITORIES](repositories.md)  |  [BLOG](blog.md)  | 
 
 <h2 align="center"> Hi there <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="25px"> ... My name is Dilan Suárez Agüero! </h2>
 <p align="center"><img width="700" src="img/grupal_vih.jpeg" /></p>
