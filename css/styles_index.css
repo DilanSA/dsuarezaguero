@@ -26,11 +26,11 @@ a{
 
 .hero-wrapper{
   width:100%;
-  max-height:100vh;
+  max-height:95vh;
   display:flex;
   justify-content:center;
   align-items:center;
-  padding:10px;
+  padding:20px;
 }
 
 /* =========================
@@ -43,12 +43,12 @@ a{
   max-height:100vh;
   background:#F2F0EB;
   border-radius:10px;
-  padding:20px 20px;
+  padding:25px 25px;
   display:flex;
   flex-direction:column;
   position:relative;
   overflow:hidden;
-  border:2px solid #d6d3d1;
+  border:3px solid #d6d3d1;
 }
 
 /* =========================
@@ -60,7 +60,7 @@ a{
   display:flex;
   justify-content:space-between;
   align-items:center;
-  margin-bottom:60px;
+  margin-bottom:35px;
 }
 
 /* LOGO */
@@ -89,8 +89,8 @@ a{
 }
 
 .menu a{
-  font-size:25px;
-  font-weight:700;
+  font-size:15px;
+  font-weight:650;
   color:#41453f;
   transition:0.3s;
 }
@@ -99,7 +99,7 @@ a{
 }
 
 .resume-btn{
-  padding:10px 20px;
+  padding:10px 15px;
   border:1px solid #111111;
   border-radius:12px;
   transition:0.3s;
@@ -107,7 +107,7 @@ a{
 
 .resume-btn:hover{
   background:#ebab83;
-  color:#f7f6f5;
+  color:#21201f;
 }
 
 /* =========================
@@ -121,29 +121,29 @@ a{
 }
 
 .hero-text{
-  max-height:100vh;
+  max-height:90vh;
 }
 
 .hero-text small{
-  font-size:30px;
+  font-size:18px;
   letter-spacing:2px;
   color:#555;
   display:block;
-  margin-bottom:25px;
-  font-weight:600;
+  margin-bottom:20px;
+  font-weight:650;
 }
 
 .hero-text h1{
-  font-size:clamp(60px, 9vw, 100px);
+  font-size:clamp(40px, 9vw, 70px);
   line-height:0.95;
   font-weight:900;
   letter-spacing:-5px;
   color:#111111;
-  margin-bottom:20px;
+  margin-bottom:15px;
 }
 
 .hero-text h2{
-  font-size:clamp(45px, 7vw, 90px);
+  font-size:clamp(30px, 7vw, 60px);
   line-height:0.95;
   font-weight:700;
   letter-spacing:-4px;
@@ -153,7 +153,7 @@ a{
 
 .hero-text p{
   max-width:85%;
-  font-size:25px;
+  font-size:20px;
   line-height:1.8;
   color:#4b5563;
   margin-bottom:45px;
