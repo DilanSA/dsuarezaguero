@@ -114,32 +114,24 @@ a{
 
   display:flex;
   align-items:center;
-  gap:40px;
-
+  gap:20px;
   flex-wrap:wrap;
-
 }
 
 .menu a{
 
-  font-size:14px;
-  font-weight:600;
-
-  color:#444;
-
+  font-size:25px;
+  font-weight:700;
+  color:#41453f;
   transition:0.3s;
-
 }
-
 .menu a:hover{
-
-  color:#000;
-
+  color:#d6763a;
 }
 
 .resume-btn{
 
-  padding:12px 22px;
+  padding:10px 20px;
 
   border:1px solid #111111;
 
@@ -151,8 +143,8 @@ a{
 
 .resume-btn:hover{
 
-  background:#111111;
-  color:#F2F0EB;
+  background:#ebab83;
+  color:#f7f6f5;
 
 }
 
@@ -171,70 +163,43 @@ a{
 
 .hero-text{
 
-  max-width:800px;
+  max-height:100vh;
 
 }
 
 .hero-text small{
-
-  font-size:18px;
-
+  font-size:30px;
   letter-spacing:2px;
-
   color:#555;
-
   display:block;
-
   margin-bottom:25px;
-
   font-weight:600;
-
 }
 
 .hero-text h1{
-
-  font-size:clamp(38px, 9vw, 120px);
-
+  font-size:clamp(60px, 9vw, 100px);
   line-height:0.95;
-
   font-weight:900;
-
   letter-spacing:-5px;
-
   color:#111111;
-
-  margin-bottom:10px;
-
+  margin-bottom:20px;
 }
 
 .hero-text h2{
-
-  font-size:clamp(32px, 8vw, 95px);
-
+  font-size:clamp(45px, 7vw, 90px);
   line-height:0.95;
-
-  font-weight:900;
-
+  font-weight:700;
   letter-spacing:-4px;
-
   color:#6b7280;
-
   margin-bottom:35px;
-
 }
 
 .hero-text p{
-
-  max-width:650px;
-
-  font-size:18px;
-
+  max-width:85%;
+  font-size:25px;
   line-height:1.8;
-
   color:#4b5563;
-
   margin-bottom:45px;
-
 }
 
 /* =========================
