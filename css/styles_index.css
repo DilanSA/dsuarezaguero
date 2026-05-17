@@ -38,7 +38,7 @@ a{
   justify-content:center;
   align-items:center;
 
-  padding:20px;
+  padding:10px;
 
 }
 
@@ -51,13 +51,13 @@ a{
   width:100%;
   max-width:1400px;
 
-  min-height:92vh;
+  max-height:100vh;
 
   background:#F2F0EB;
 
-  border-radius:15px;
+  border-radius:10px;
 
-  padding:40px 60px;
+  padding:20px 20px;
 
   display:flex;
   flex-direction:column;
@@ -66,7 +66,7 @@ a{
 
   overflow:hidden;
 
-  border:1px solid #d6d3d1;
+  border:2px solid #d6d3d1;
 
 }
 
@@ -82,7 +82,7 @@ a{
   justify-content:space-between;
   align-items:center;
 
-  margin-bottom:80px;
+  margin-bottom:60px;
 
 }
 
@@ -92,16 +92,16 @@ a{
 
   display:flex;
   align-items:center;
-  gap:14px;
+  gap:1px;
 
 }
 
 .logo img{
 
-  width:60px;
-  height:60px;
+  width:80px;
+  height:80px;
 
-  border-radius:50px;
+  border-radius:50%;
 
   object-fit:cover;
 
