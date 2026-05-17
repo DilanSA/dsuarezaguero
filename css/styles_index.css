@@ -9,15 +9,10 @@ html{
 }
 
 body{
-
   font-family:'Inter',sans-serif;
-
   background:#F2F0EB;
-
   overflow-x:hidden;
-
   color:#111111;
-
 }
 
 a{
@@ -30,16 +25,12 @@ a{
 ========================= */
 
 .hero-wrapper{
-
   width:100%;
   max-height:100vh;
-
   display:flex;
   justify-content:center;
   align-items:center;
-
   padding:10px;
-
 }
 
 /* =========================
@@ -47,27 +38,17 @@ a{
 ========================= */
 
 .hero{
-
   width:100%;
   max-width:1400px;
-
   max-height:100vh;
-
   background:#F2F0EB;
-
   border-radius:10px;
-
   padding:20px 20px;
-
   display:flex;
   flex-direction:column;
-
   position:relative;
-
   overflow:hidden;
-
   border:2px solid #d6d3d1;
-
 }
 
 /* =========================
@@ -75,43 +56,32 @@ a{
 ========================= */
 
 .navbar{
-
   width:100%;
-
   display:flex;
   justify-content:space-between;
   align-items:center;
-
   margin-bottom:60px;
-
 }
 
 /* LOGO */
 
 .logo{
-
   display:flex;
   align-items:center;
   gap:1px;
-
 }
 
 .logo img{
-
   width:80px;
   height:80px;
-
   border-radius:50%;
-
   object-fit:cover;
-
 }
 
 
 /* MENU */
 
 .menu{
-
   display:flex;
   align-items:center;
   gap:20px;
@@ -119,7 +89,6 @@ a{
 }
 
 .menu a{
-
   font-size:25px;
   font-weight:700;
   color:#41453f;
@@ -195,96 +164,51 @@ a{
 ========================= */
 
 @media(max-width:992px){
-
   .hero{
-
     padding:30px;
-
   }
 
   .navbar{
-
     flex-direction:column;
     gap:25px;
-
     align-items:flex-start;
   }
 
   .menu{
-
     gap:20px;
-
   }
 
   .hero-content{
-
     align-items:flex-start;
-
   }
 
   .hero-text h1{
-
     letter-spacing:-3px;
-
   }
 
   .hero-text h2{
-
     letter-spacing:-2px;
-
   }
-
 }
 
 @media(max-width:768px){
 
   .hero{
-
     min-height:auto;
-
     padding:25px;
-
     border-radius:22px;
-
   }
 
   .menu{
-
     width:100%;
-
     justify-content:flex-start;
-
   }
 
   .hero-content{
-
     padding-top:20px;
-
   }
 
   .hero-text p{
-
     font-size:16px;
-
   }
-
-  .socials{
-
-    position:relative;
-
-    left:auto;
-    bottom:auto;
-
-    flex-direction:row;
-
-    margin-top:50px;
-
-  }
-
-  .email{
-
-    display:none;
-
-  }
-
 }
