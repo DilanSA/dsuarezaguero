@@ -130,22 +130,15 @@ a{
 }
 
 .resume-btn{
-
   padding:10px 20px;
-
   border:1px solid #111111;
-
   border-radius:12px;
-
   transition:0.3s;
-
 }
 
 .resume-btn:hover{
-
   background:#ebab83;
   color:#f7f6f5;
-
 }
 
 /* =========================
@@ -153,18 +146,13 @@ a{
 ========================= */
 
 .hero-content{
-
   flex:1;
-
   display:flex;
   align-items:center;
-
 }
 
 .hero-text{
-
   max-height:100vh;
-
 }
 
 .hero-text small{
@@ -200,94 +188,6 @@ a{
   line-height:1.8;
   color:#4b5563;
   margin-bottom:45px;
-}
-
-/* =========================
-   BUTTON
-========================= */
-
-.hero-btn{
-
-  display:inline-flex;
-
-  align-items:center;
-  justify-content:center;
-
-  padding:18px 34px;
-
-  border:1px solid #111111;
-
-  border-radius:14px;
-
-  font-size:15px;
-  font-weight:600;
-
-  transition:0.3s;
-
-}
-
-.hero-btn:hover{
-
-  background:#111111;
-  color:#F2F0EB;
-
-  transform:translateY(-3px);
-
-}
-
-/* =========================
-   SOCIAL LEFT
-========================= */
-
-.socials{
-
-  position:absolute;
-
-  left:35px;
-  bottom:40px;
-
-  display:flex;
-  flex-direction:column;
-  gap:18px;
-
-}
-
-.socials a{
-
-  font-size:14px;
-
-  color:#666;
-
-  transition:0.3s;
-
-}
-
-.socials a:hover{
-
-  color:#111111;
-  transform:translateX(4px);
-
-}
-
-/* =========================
-   EMAIL RIGHT
-========================= */
-
-.email{
-
-  position:absolute;
-
-  right:35px;
-  bottom:40px;
-
-  writing-mode:vertical-rl;
-
-  font-size:13px;
-
-  letter-spacing:2px;
-
-  color:#777;
-
 }
 
 /* =========================
