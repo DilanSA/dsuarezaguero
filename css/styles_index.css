@@ -55,7 +55,7 @@ a{
 
   background:#F2F0EB;
 
-  border-radius:30px;
+  border-radius:15px;
 
   padding:40px 60px;
 
@@ -98,25 +98,15 @@ a{
 
 .logo img{
 
-  width:48px;
-  height:48px;
+  width:60px;
+  height:60px;
 
-  border-radius:14px;
+  border-radius:50px;
 
   object-fit:cover;
 
 }
 
-.logo span{
-
-  font-size:15px;
-  font-weight:700;
-
-  letter-spacing:1px;
-
-  color:#111111;
-
-}
 
 /* MENU */
 
@@ -187,7 +177,7 @@ a{
 
 .hero-text small{
 
-  font-size:16px;
+  font-size:25px;
 
   letter-spacing:2px;
 
@@ -203,7 +193,7 @@ a{
 
 .hero-text h1{
 
-  font-size:clamp(55px, 9vw, 120px);
+  font-size:clamp(38px, 9vw, 120px);
 
   line-height:0.95;
 
@@ -219,7 +209,7 @@ a{
 
 .hero-text h2{
 
-  font-size:clamp(45px, 8vw, 95px);
+  font-size:clamp(32px, 8vw, 95px);
 
   line-height:0.95;
 
