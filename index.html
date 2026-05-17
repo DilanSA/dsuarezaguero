@@ -8,77 +8,63 @@
   <link rel="icon" type="image/png" href="Favicon3_Logo_DilanSuarez.png">
   <link rel="shortcut icon" href="Favicon3_Logo_DilanSuarez.png">
   <link rel="stylesheet" href="css/styles_index.css"> <!-- 🔗 Conexión al CSS -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap"
 </head>
 
   
 <!-- Body -->
 <body>
 <!-- HERO SECTION -->
-<section class="hero">
-  <header>
-   <nav>
-    <a href="index.html">Inicio</a>
-    <a href="bio.html">Bio</a>
-    <a href="experiencia.html">Experiencia</a>
-    <a href="proyectos.html">Proyectos</a>
-    <a href="blog.html">Blog</a>
-   </nav>
-  </header>
-  <!-- Texto superior -->
-
-  <div class="hero-top">
-    <p>LIMA, PERÚ</p>
-    <span>dilansuarezaguero@gmail.com</span>
-  </div>
-
-  <!-- Nombre principal -->
-
-  <h1>
-    DILAN SUÁREZ
-  </h1>
-
-  <!-- Cards flotantes -->
-
-  <div class="hero-cards">
-
-    <div class="floating-card card-1">
-      <img src="images/dashboard.jpg" alt="">
+<section class="hero-wrapper">
+    <div class="hero">
+      <nav class="navbar">
+        <div class="logo"> <!-- LOGO -->
+          <img src="favicon.png" alt="logo">
+          <span>DILAN SUÁREZ</span>
+        </div>
+        <div class="menu">
+          <a href="bio.html">Bio</a>
+          <a href="experiencia.html">Experiencia</a>
+          <a href="proyectos.html">Proyectos</a>
+          <a href="blog.html">Blog</a>
+          <a href="#" class="resume-btn">
+            CV
+          </a>
+        </div>
+      </nav>
+      <div class="hero-content">
+        <div class="hero-text">
+          <small>
+            Hola, mi nombre es
+          </small>
+          <h1>
+            Dilan Suárez Agüero
+          </h1>
+          <h2>
+            Genero datos en el laboratorio y lo transformo en evidencia<br>
+            para la toma de decisiones.
+          </h2>
+          <p>
+            Microbiólogo con formación en biología molecular, bioinformática y análisis de datos. 
+            Línea de investigación en epidemiología molecular de patógenos de importancia en salud pública e 
+            interés en el desarrollo de aplicaciones para la automatización de procesos y predicción de eventos.
+          </p>
+          <a href="proyectos.html" class="hero-btn">
+            Ver proyectos
+          </a>
+        </div>
+      </div>
+      <div class="socials">  <!-- SOCIALS -->
+        <a href="#">GitHub</a>
+        <a href="#">LinkedIn</a>
+        <a href="#">Power BI</a>
+      </div>
+      <div class="email"> <!-- EMAIL -->
+        dilansuarezaguero.com
+      </div>
     </div>
+  </section>
+</body>
+</html>
 
-    <div class="floating-card card-2">
-      <img src="images/lab.jpg" alt="">
-    </div>
-
-    <div class="floating-card card-3">
-      <img src="images/data.jpg" alt="">
-    </div>
-
-  </div>
-
-  <!-- Texto gigante inferior -->
-
-  <h2>
-    MICROBIÓLOGO,<br>
-    ANALISTA DE DATOS<br>
-    & DESARROLLO DE APLICACIONES
-  </h2>
-
-</section>
-
-  
-<main>
-  <h2>Hola, soy Dilan</h2>
-  <p>Biológo | Data | Machine Learning en salud</p>
-
-  <h3>Proyectos destacados</h3>
-
-  <div class="card">
-    <h4><a href="proyectos/proyecto1.html">Dashboard VIH</a></h4>
-    <p>Seguimiento de productividad en laboratorios</p>
-  </div>
-
-  <div class="card">
-    <h4><a href="proyectos/proyecto2.html">Análisis de errores</a></h4>
-    <p>Evaluación de calidad en pruebas</p>
-  </div>
-</main>
