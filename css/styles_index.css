@@ -1,177 +1,337 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+html{
+  scroll-behavior:smooth;
+}
+
+body{
+
+  font-family:'Inter',sans-serif;
+
+  background:#F2F0EB;
+
+  overflow-x:hidden;
+
+  color:#111111;
+
+}
+
+a{
+  text-decoration:none;
+  color:inherit;
+}
+
 /* =========================
-   HERO SECTION
+   HERO WRAPPER
+========================= */
+
+.hero-wrapper{
+
+  width:100%;
+  min-height:100vh;
+
+  display:flex;
+  justify-content:center;
+  align-items:center;
+
+  padding:20px;
+
+}
+
+/* =========================
+   HERO BOX
 ========================= */
 
 .hero{
 
-  min-height:100vh;
+  width:100%;
+  max-width:1400px;
+
+  min-height:92vh;
+
+  background:#F2F0EB;
+
+  border-radius:30px;
+
+  padding:40px 60px;
 
   display:flex;
   flex-direction:column;
-  justify-content:center;
-  align-items:center;
-
-  text-align:center;
-
-  padding:120px 20px 80px;
-
-  background:#f5f5f5;
-
-  overflow:hidden;
-
-}
-
-/* =========================
-   TEXTO SUPERIOR
-========================= */
-
-.hero-top{
-  margin-bottom:20px;
-}
-
-.hero-top p{
-
-  font-size:12px;
-  letter-spacing:3px;
-  font-weight:700;
-
-  color:#444;
-
-  margin-bottom:5px;
-
-}
-
-.hero-top span{
-
-  font-size:11px;
-  color:#9ca3af;
-
-  letter-spacing:1px;
-
-}
-
-/* =========================
-   TITULO PRINCIPAL
-========================= */
-
-.hero h1{
-
-  font-size:clamp(55px, 10vw, 130px);
-
-  font-weight:900;
-
-  line-height:0.9;
-
-  letter-spacing:-4px;
-
-  color:#1f2937;
-
-  margin-bottom:50px;
-
-}
-
-/* =========================
-   CARDS
-========================= */
-
-.hero-cards{
 
   position:relative;
 
-  width:100%;
-  max-width:700px;
-
-  height:250px;
-
-  margin-bottom:60px;
-
-}
-
-.floating-card{
-
-  position:absolute;
-
-  width:220px;
-  height:220px;
-
-  border-radius:25px;
-
   overflow:hidden;
 
-  background:white;
-
-  box-shadow:
-  0 15px 30px rgba(0,0,0,0.10);
-
-  transition:0.4s;
+  border:1px solid #d6d3d1;
 
 }
 
-.floating-card img{
+/* =========================
+   NAVBAR
+========================= */
+
+.navbar{
 
   width:100%;
-  height:100%;
+
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+
+  margin-bottom:80px;
+
+}
+
+/* LOGO */
+
+.logo{
+
+  display:flex;
+  align-items:center;
+  gap:14px;
+
+}
+
+.logo img{
+
+  width:48px;
+  height:48px;
+
+  border-radius:14px;
 
   object-fit:cover;
 
 }
 
-.floating-card:hover{
+.logo span{
 
-  transform:translateY(-10px);
+  font-size:15px;
+  font-weight:700;
 
-}
+  letter-spacing:1px;
 
-/* POSICIONES */
-
-.card-1{
-
-  left:80px;
-  top:15px;
-
-  transform:rotate(-8deg);
-
-  z-index:1;
+  color:#111111;
 
 }
 
-.card-2{
+/* MENU */
 
-  left:240px;
-  top:0;
+.menu{
 
-  z-index:3;
+  display:flex;
+  align-items:center;
+  gap:40px;
+
+  flex-wrap:wrap;
 
 }
 
-.card-3{
+.menu a{
 
-  left:400px;
-  top:15px;
+  font-size:14px;
+  font-weight:600;
 
-  transform:rotate(8deg);
+  color:#444;
 
-  z-index:2;
+  transition:0.3s;
+
+}
+
+.menu a:hover{
+
+  color:#000;
+
+}
+
+.resume-btn{
+
+  padding:12px 22px;
+
+  border:1px solid #111111;
+
+  border-radius:12px;
+
+  transition:0.3s;
+
+}
+
+.resume-btn:hover{
+
+  background:#111111;
+  color:#F2F0EB;
 
 }
 
 /* =========================
-   TEXTO INFERIOR
+   HERO CONTENT
 ========================= */
 
-.hero h2{
+.hero-content{
 
-  font-size:clamp(35px, 6vw, 90px);
+  flex:1;
 
-  font-weight:900;
+  display:flex;
+  align-items:center;
+
+}
+
+.hero-text{
+
+  max-width:800px;
+
+}
+
+.hero-text small{
+
+  font-size:16px;
+
+  letter-spacing:2px;
+
+  color:#555;
+
+  display:block;
+
+  margin-bottom:25px;
+
+  font-weight:600;
+
+}
+
+.hero-text h1{
+
+  font-size:clamp(55px, 9vw, 120px);
 
   line-height:0.95;
 
-  color:#d1d5db;
+  font-weight:900;
 
-  text-transform:uppercase;
+  letter-spacing:-5px;
 
-  letter-spacing:-3px;
+  color:#111111;
+
+  margin-bottom:10px;
+
+}
+
+.hero-text h2{
+
+  font-size:clamp(45px, 8vw, 95px);
+
+  line-height:0.95;
+
+  font-weight:900;
+
+  letter-spacing:-4px;
+
+  color:#6b7280;
+
+  margin-bottom:35px;
+
+}
+
+.hero-text p{
+
+  max-width:650px;
+
+  font-size:18px;
+
+  line-height:1.8;
+
+  color:#4b5563;
+
+  margin-bottom:45px;
+
+}
+
+/* =========================
+   BUTTON
+========================= */
+
+.hero-btn{
+
+  display:inline-flex;
+
+  align-items:center;
+  justify-content:center;
+
+  padding:18px 34px;
+
+  border:1px solid #111111;
+
+  border-radius:14px;
+
+  font-size:15px;
+  font-weight:600;
+
+  transition:0.3s;
+
+}
+
+.hero-btn:hover{
+
+  background:#111111;
+  color:#F2F0EB;
+
+  transform:translateY(-3px);
+
+}
+
+/* =========================
+   SOCIAL LEFT
+========================= */
+
+.socials{
+
+  position:absolute;
+
+  left:35px;
+  bottom:40px;
+
+  display:flex;
+  flex-direction:column;
+  gap:18px;
+
+}
+
+.socials a{
+
+  font-size:14px;
+
+  color:#666;
+
+  transition:0.3s;
+
+}
+
+.socials a:hover{
+
+  color:#111111;
+  transform:translateX(4px);
+
+}
+
+/* =========================
+   EMAIL RIGHT
+========================= */
+
+.email{
+
+  position:absolute;
+
+  right:35px;
+  bottom:40px;
+
+  writing-mode:vertical-rl;
+
+  font-size:13px;
+
+  letter-spacing:2px;
+
+  color:#777;
 
 }
 
@@ -179,50 +339,96 @@
    RESPONSIVE
 ========================= */
 
-@media(max-width:768px){
+@media(max-width:992px){
 
   .hero{
 
-    padding-top:140px;
+    padding:30px;
 
   }
 
-  .hero-cards{
-
-    display:flex;
+  .navbar{
 
     flex-direction:column;
-    align-items:center;
+    gap:25px;
 
-    height:auto;
+    align-items:flex-start;
+  }
+
+  .menu{
 
     gap:20px;
 
   }
 
-  .floating-card{
+  .hero-content{
 
-    position:relative;
-
-    left:auto;
-    top:auto;
-
-    transform:none !important;
-
-    width:240px;
-    height:240px;
+    align-items:flex-start;
 
   }
 
-  .hero h1{
+  .hero-text h1{
+
+    letter-spacing:-3px;
+
+  }
+
+  .hero-text h2{
 
     letter-spacing:-2px;
 
   }
 
-  .hero h2{
+}
 
-    margin-top:40px;
+@media(max-width:768px){
+
+  .hero{
+
+    min-height:auto;
+
+    padding:25px;
+
+    border-radius:22px;
+
+  }
+
+  .menu{
+
+    width:100%;
+
+    justify-content:flex-start;
+
+  }
+
+  .hero-content{
+
+    padding-top:20px;
+
+  }
+
+  .hero-text p{
+
+    font-size:16px;
+
+  }
+
+  .socials{
+
+    position:relative;
+
+    left:auto;
+    bottom:auto;
+
+    flex-direction:row;
+
+    margin-top:50px;
+
+  }
+
+  .email{
+
+    display:none;
 
   }
 
