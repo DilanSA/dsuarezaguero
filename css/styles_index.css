@@ -129,7 +129,7 @@ a{
   letter-spacing:2px;
   color:#555;
   display:block;
-  margin-bottom:20px;
+  margin-bottom:22px;
   font-weight:650;
 }
 
@@ -146,7 +146,7 @@ a{
   font-size:clamp(23px, 7vw, 37px);
   max-width:90%;
   line-height:0.95;
-  font-weight:700;
+  font-weight:650;
   letter-spacing:-4px;
   color:#6b7280;
   margin-bottom:38px;
