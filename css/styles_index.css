@@ -26,11 +26,11 @@ a{
 
 .hero-wrapper{
   width:100%;
-  max-height:90vh;
+  min-height:95vh;
   display:flex;
   justify-content:center;
   align-items:center;
-  padding:25px 25px;
+  padding:20px;
 }
 
 /* =========================
@@ -40,10 +40,10 @@ a{
 .hero{
   width:100%;
   max-width:1400px;
-  max-height:90vh;
+  height:calc(100vh - 40px);
   background:#F2F0EB;
   border-radius:10px;
-  padding:25px 25px;
+  padding:20px;
   display:flex;
   flex-direction:column;
   position:relative;
@@ -138,7 +138,7 @@ a{
   line-height:0.95;
   font-weight:900;
   letter-spacing:-5px;
-  color:#fc0703;
+  color:#111111;
   margin-bottom:15px;
 }
 
@@ -166,7 +166,7 @@ a{
 
 @media(max-width:992px){
   .hero{
-    padding:30px;
+    padding:12px;
   }
 
   .navbar{
@@ -195,8 +195,9 @@ a{
 @media(max-width:768px){
 
   .hero{
-    min-height:auto;
-    padding:25px;
+    height:auto;
+    min-height:calc(100vh - 24px);
+    padding:22px;
     border-radius:22px;
   }
 
