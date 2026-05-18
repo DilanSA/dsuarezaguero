@@ -142,7 +142,7 @@ a{
   margin-bottom:15px;
 }
 
-.hero-text h2{
+.hero-text h3{
   font-size:clamp(23px, 7vw, 37px);
   max-width:90%;
   line-height:0.95;
