@@ -114,7 +114,7 @@ body{
     width:100%;
     height:100vh;
 
-    background-image:url("img/hero.png");
+    background-image:url("../img/hero.png");
 
     background-size:cover;
     background-position:center;
@@ -128,18 +128,6 @@ body{
 
     overflow:hidden;
 }
-
-
-/* OVERLAY */
-
-.overlay{
-
-    position:absolute;
-    inset:0;
-
-    background:rgba(0,0,0,0.40);
-}
-
 
 /* CONTENIDO */
 
