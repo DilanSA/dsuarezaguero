@@ -8,51 +8,118 @@
   <link rel="icon" type="image/png" href="Favicon3Mod_Logo_DilanSuarez.png">
   <link rel="shortcut icon" href="Favicon3_Logo_DilanSuarez.png">
   <link rel="stylesheet" href="css/styles_index.css"> <!-- 🔗 Conexión al CSS -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
-
   
 <!-- Body -->
-<body>
-<!-- HERO SECTION -->
-<section class="hero-wrapper">
-    <div class="hero">
-      <nav class="navbar">
-        <div class="logo"> <!-- LOGO -->
-          <img src="Favicon3Mod_Logo_DilanSuarez.png" alt="logo">
+<header class="navbar">
+        <div class="logo-container">
+            <img src="Favicon3Mod_Logo_DilanSuarez.png" alt="Logo" class="logo">
         </div>
-        <div class="menu">
-          <a href="index.html">Inicio</a>
-          <a href="experiencia.html">Experiencia</a>
-          <a href="publicaciones.html">Publicaciones</a>
-          <a href="proyectos.html">Proyectos</a>
-          <a href="blog.html">Blog</a>
-          <a href="#" class="resume-btn">
-            CV
-          </a>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="experiencia.html">Experiencia</a></li>
+                <li><a href="publicaciones.html">Publicaciones</a></li>
+                <li> <a href="proyectos.html">Proyectos</a></li>
+                <li><a href="blog.html">Blog</a></li>
+            </ul>
+        </nav>
+        <a href="#" class="cv-btn">CV</a>
+    </header>
+  
+<!-- ================= HERO ================= -->
+    <section class="hero">
+        <!-- Overlay -->
+        <div class="overlay"></div>
+        <!-- CONTENIDO -->
+        <div class="hero-content">
+            <h1>Dilan Suárez Agüero</h1>
+            <p>
+                Genero datos en el laboratorio y los transformo
+                en evidencia para la toma de decisiones
+            </p>
+            <!-- ICONOS -->
+            <div class="social-icons">
+                <a href="https://github.com/DilanSA">
+                    <img src="img/github.png" alt="GitHub">
+                </a>
+                <a href="https://www.linkedin.com/in/dilansuarezaguero/">
+                    <img src="img/linkedin.png" alt="Linkedin">
+                </a>
+                <a href="https://x.com/dilansa01">
+                    <img src="img/X.png" alt="X">
+                </a>
+                <a href="https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=57222">
+                    <img src="img/concytec.png" alt="CTI VITAE">
+                </a>
+            </div>
         </div>
-      </nav>
-      <div class="hero-content">
-        <div class="hero-text">
-          <small>
-            Hola, mi nombre es
-          </small>
-          <h1>
-            Dilan Suárez Agüero
-          </h1>
-          <h3>
-            Genero datos en el laboratorio y lo transformo en evidencia para la toma de decisiones.
-          </h3>
-          <p>
-            Microbiólogo con formación en biología molecular, bioinformática y análisis de datos. 
-            Línea de investigación en epidemiología molecular de patógenos de importancia en salud pública e 
-            interés en el desarrollo de aplicaciones para la automatización de procesos y predicción de eventos.
-          </p>
+    </section>
+<!-- ================= ABOUT ================= -->
+
+    <section class="about-section">
+        <div class="about-container">
+            <!-- FOTO -->
+            <div class="profile-column">
+                <img src="img/foto_perfil.jpg"
+                    alt="Foto Perfil"
+                    class="profile-img">
+            </div>
+            <!-- INFORMACION -->
+            <div class="info-column">
+                <p class="description">
+                    Microbiólogo Investigador Renacyt Nivel VI con formación en biología molecular, bioinformática y análisis de datos. 
+                    Experiencia en el monitoreo de la red nacional de laboratorios de VIH/Hepatitis y asistente de investigación en múltiples proyectos financiados. 
+                    Línea de investigación en epidemiología molecular de patógenos de importancia en salud pública. 
+                    Con particular interés en el desarrollo de aplicaciones para la automatización de procesos y predicción de eventos.
+                </p>
+                <div class="info-grid">
+                    <!-- EDUCACION -->
+                    <div>
+                        <h2>Educación</h2>
+                        <div class="item">
+                            <h3>Especialización ML Engineer</h3>
+                            <span>Data Science Research Perú</span>
+                        </div>
+                        <div class="item">
+                            <h3>Maestría en Bioinformática</h3>
+                            <span>Universidad Internacional de Valencia (VIU)</span>
+                        </div>
+                        <div class="item">
+                            <h3>Certificación Especializada en Data Science: Estadística y Análisis de datos en R</h3>
+                            <span>ILCID-MasterX</span>
+                        </div>
+                        <div class="item">
+                            <h3>Bachiller en Microbiología y Parasitología</h3>
+                            <span>Universidad Nacional Mayor de San Marcos (UNMSM)</span>
+                        </div>
+                    </div>
+                    <!-- SKILLS -->
+                    <div>
+                        <h2>Skills</h2>
+                        <div class="skills">
+                            <p>
+                                <strong>Bioinformática:</strong><br>
+                                Linux/Ubuntu, Genómica, Metagenómica
+                            </p>
+                            <p>
+                                <strong>Manejo de Bases de datos:</strong><br>
+                                Microsoft Excel, SQL, R/RStudio
+                            </p>
+                            <p>
+                                <strong>Análisis Estadísticos y Visualización de datos:</strong><br>
+                                R/Rstudio, Power BI, Python
+                            </p>
+                            <p>
+                                <strong>Georreferenciación y Análisis espacial:</strong><br>
+                                R/RStudio, Python
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
-  </section>
+    </section>
 </body>
 </html>
-
