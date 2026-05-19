@@ -30,7 +30,7 @@ a{
   display:flex;
   justify-content:center;
   align-items:center;
-  padding:20px;
+  padding:12px;
 }
 
 /* =========================
@@ -39,11 +39,11 @@ a{
 
 .hero{
   width:100%;
-  max-width:1400px;
-  height:calc(100vh - 40px);
+  max-width:1600px;
+  height:calc(100vh - 20px);
   background:#F2F0EB;
-  border-radius:10px;
-  padding:20px;
+  border-radius:5px;
+  padding:12px;
   display:flex;
   flex-direction:column;
   position:relative;
@@ -60,7 +60,7 @@ a{
   display:flex;
   justify-content:space-between;
   align-items:center;
-  margin-bottom:30px;
+  margin-bottom:20px;
 }
 
 /* LOGO */
@@ -72,8 +72,8 @@ a{
 }
 
 .logo img{
-  width:80px;
-  height:80px;
+  width:50px;
+  height:50px;
   border-radius:50%;
   object-fit:cover;
 }
@@ -89,8 +89,8 @@ a{
 }
 
 .menu a{
-  font-size:20px;
-  font-weight:650;
+  font-size:12px;
+  font-weight:600;
   color:#41453f;
   transition:0.3s;
 }
@@ -99,7 +99,7 @@ a{
 }
 
 .resume-btn{
-  padding:10px 15px;
+  padding:8px;
   border:1.5px solid #111111;
   border-radius:12px;
   transition:0.3s;
@@ -107,7 +107,7 @@ a{
 
 .resume-btn:hover{
   background:#ebab83;
-  color:#050505;
+  color:#111111;
 }
 
 /* =========================
@@ -121,11 +121,11 @@ a{
 }
 
 .hero-text{
-  max-height:90vh;
+  max-height:100vh;
 }
 
 .hero-text small{
-  font-size:20px;
+  font-size:12px;
   letter-spacing:0px;
   color:#555;
   display:block;
@@ -134,17 +134,17 @@ a{
 }
 
 .hero-text h1{
-  font-size:clamp(40px, 9vw, 60px);
+  font-size:clamp(30px, 9vw, 50px);
   line-height:0.95;
-  font-weight:900;
+  font-weight:800;
   letter-spacing: 0px;
   color:#111111;
   margin-bottom:15px;
 }
 
 .hero-text h3{
-  font-size:clamp(23px, 7vw, 37px);
-  max-width:90%;
+  font-size:clamp(15px, 7vw, 30px);
+  max-width:100%;
   line-height:0.95;
   font-weight:650;
   letter-spacing:0px;
@@ -153,8 +153,8 @@ a{
 }
 
 .hero-text p{
-  max-width:90%;
-  font-size:20px;
+  max-width:100%;
+  font-size:12px;
   line-height:1.8;
   letter-spacing:0px;
   color:#4b5563;
@@ -172,12 +172,12 @@ a{
 
   .navbar{
     flex-direction:column;
-    gap:25px;
+    gap:15px;
     align-items:flex-start;
   }
 
   .menu{
-    gap:20px;
+    gap:15px;
   }
 
   .hero-content{
@@ -197,8 +197,8 @@ a{
 
   .hero{
     height:auto;
-    min-height:calc(100vh - 24px);
-    padding:22px;
+    min-height:calc(95vh - 24px);
+    padding:15px;
     border-radius:22px;
   }
 
