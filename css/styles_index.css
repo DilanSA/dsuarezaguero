@@ -62,13 +62,13 @@ body{
 
     display:flex;
     list-style:none;
-    gap:35px;
+    gap:25px;
 }
 
 .nav-links a{
 
     text-decoration:none;
-    color:white;
+    color:black;
 
     font-weight:600;
     font-size:0.95rem;
@@ -88,7 +88,7 @@ body{
 
     border:1.5px solid white;
 
-    padding:10px 18px;
+    padding:10px;
 
     text-decoration:none;
     color:white;
@@ -100,7 +100,7 @@ body{
 
 .cv-btn:hover{
 
-    background:white;
+    background:orange;
     color:black;
 }
 
