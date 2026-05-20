@@ -1,0 +1,363 @@
+/* =========================
+   RESET
+========================= */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background:#f4f4f4;
+    color:#222;
+}
+
+
+/* =========================
+   NAVBAR
+========================= */
+
+.navbar{
+
+    width:100%;
+    height:7vh;
+    position:fixed;
+    top:0;
+    left:0;
+    z-index:1000;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:0 1%;
+    background:WHITE;
+    box-shadow:0 2px 10px rgba(0,0,0,0.2);
+}
+
+/* LOGO */
+
+.logo{
+    width: 6vh;
+    height: 6vh;
+    object-fit:cover;
+    border-radius:50%;
+}
+
+
+/* MENU */
+nav{
+    margin-left:auto;
+}
+
+.nav-links{
+    display:flex;
+    align-items:center;
+    list-style:none;
+    gap: 5vh;
+    margin-right: 4vh;
+}
+
+.nav-links a{
+    text-decoration:none;
+    color:black;
+    font-weight:600;
+    font-size: 2.2vh;
+    transition:0.3s;
+}
+
+.nav-links a:hover{
+    color:orange;
+    opacity:0.9;
+}
+
+
+/* BOTON CV */
+.cv-btn{
+    border: 0.3vh solid black;
+    padding: 0.75vh 1vh;
+    text-decoration:none;
+    color:black;
+    font-size: 2.2vh;
+    font-weight:600;
+    transition:0.3s;
+}
+
+.cv-btn:hover{
+    background:orange;
+    color:black;
+}
+
+
+/* =========================
+   HERO
+========================= */
+
+.hero{
+
+    width:100%;
+    height: 35vh;
+    margin-top: 7vh;
+    background-image:url("../img/hero.png");
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    position:relative;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    overflow:hidden;
+}
+
+/* CONTENIDO */
+
+.hero-content{
+    position:relative;
+    z-index:2;
+    width:100%;
+    max-width:100%;
+    text-align:center;
+    color:white;
+    padding: 0;
+}
+
+
+/* TITULO */
+
+.hero-content h1{
+    font-size: 10vh;
+    font-weight:800;
+    margin-top: 0;
+    margin-bottom: 2vh;
+    letter-spacing: 0.01vh;
+}
+
+/* SUBTITULO */
+
+.hero-content p{
+    font-size: 3vh;
+    line-height:1.7;
+    max-width: 60%;
+    margin:auto;
+    margin-bottom: 2vh;
+}
+
+/* =========================
+   ICONOS
+========================= */
+
+.social-icons{
+    display:flex;
+    justify-content:center;
+    gap: 3.5vh;
+}
+
+.social-icons a{
+    width: 2vh;
+    height: 2vh;
+    border-radius:0%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    color: white;
+    font-size: 3.2vh;
+    text-decoration:none;
+    transition:0.3s;
+}
+
+.social-icons a:hover{
+
+    transform:translateY(-1.5vh);
+    background:black;
+    color:orange;
+}
+
+
+/* =========================
+   ABOUT SECTION
+========================= */
+
+.about-section{
+    width:100%;
+    padding: 0.8vh;
+    background:white;
+}
+
+/* CONTENEDOR */
+.about-container{
+    max-width:85%;
+    margin:auto;
+    display:grid;
+    grid-template-columns:24% 1fr;
+    gap:5%;
+}
+
+/* FOTO */
+.profile-column{
+    display:flex;
+    justify-content:center;
+}
+
+/* IMAGEN PERFIL */
+.profile-img{
+    width:45vh;
+    height:45vh;
+    border-radius:50%;
+    object-fit:cover;
+    margin-top: 4vh;
+    border:1.8px solid black;
+    box-shadow:0 8px 25px rgba(0,0,0,0.15);
+}
+
+/* DESCRIPCION */
+
+.description{
+    font-size: 1.9vh;
+    line-height: 3vh;
+    margin-top:1vh;
+    margin-right:1.5vh;
+    color:#444;
+    text-align: justify;
+    margin-bottom: 2vh;
+}
+
+/* GRID */
+
+.info-grid{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap: 10vh;
+    margin-left: 1.5vh;
+    margin-bottom: 1vh;
+}
+
+/* TITULOS */
+
+.info-grid h2{
+    font-size: 2.5vh;
+    margin-top: 0vh;
+    margin-bottom: 1.5vh;
+}
+
+/* ITEMS */
+
+.edu-item{
+    display:flex;
+    align-items:flex-start;
+    gap:18px;
+    margin-bottom:1vh;
+}
+
+.edu-icon{
+    width: 1vh;
+    height: 1vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    color:black;
+    font-size: 3vh;
+    margin-top: 1.2vh;
+}
+
+.item{
+    margin-bottom: 1.5vh;
+}
+
+.item h3{
+    margin-bottom: 0.5vh;
+    font-size: 1.8vh;
+}
+
+.item span{
+    color: #666;
+    font-size: 1.7vh;
+}
+
+
+/* SKILLS */
+
+.skills{
+    margin-bottom: 1.5vh;
+}
+
+.skills h3{
+    margin-bottom: 0.5vh;
+    font-size: 1.8vh;
+}
+
+.skills span{
+    color: #666;
+    font-size: 1.7vh;
+}
+
+
+
+/* =========================
+   RESPONSIVE
+========================= */
+
+@media(max-width:1000px){
+
+    .hero-content h1{
+        font-size: 10vh;
+    }
+
+    .hero-content p{
+        font-size: 3vh;
+    }
+
+    .about-container{
+        grid-template-columns:1fr;
+    }
+
+    .info-grid{
+        grid-template-columns:1fr;
+    }
+
+    .profile-column{
+        justify-content:center;
+    }
+
+}
+
+
+@media(max-width:768px){
+
+    .navbar{
+        padding:0 20px;
+    }
+
+    .nav-links{
+        display:none;
+    }
+
+    .hero{
+        height:35vh;
+    }
+
+    .hero-content h1{
+        font-size:10vh;
+    }
+
+    .hero-content p{
+        font-size:3vh;
+    }
+
+    .social-icons a{
+
+        width: 2vh;
+        height: 2vh;
+
+        font-size:3.2vh;
+    }
+
+    .about-section{
+
+        padding:60px 25px;
+    }
+
+}
