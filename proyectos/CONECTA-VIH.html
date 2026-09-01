@@ -15,28 +15,27 @@
 
 <body>
 
-<!-- HERO -->
+<!-- PORTADA -->
 
 <section class="slide hero">
 
-    <div class="hero-content">
-
-        <span class="hero-tag">
-            Proyecto 02
-        </span>
-
+    <div class="slide-inner hero-inner">
         <h1>
             CONECTA-VIH
         </h1>
 
         <p class="hero-subtitle">
-            Redes genéticas y patrones de agrupamiento molecular
-            del VIH en Perú
+            Redes genéticas y patrones de agrupamiento molecular del VIH en Perú
         </p>
 
-        <p class="hero-period">
+        <p class="hero-years">
             2013–2024
         </p>
+
+        <img
+            src="/img/conecta_vih_red.png"
+            alt="Red molecular VIH"
+            class="hero-image">
 
         <p class="hero-author">
             Dilan Suárez-Agüero<br>
@@ -45,34 +44,26 @@
 
     </div>
 
-    <img
-        src="../images/conecta_vih_red.png"
-        alt="Red molecular VIH"
-        class="hero-image">
-
 </section>
 
 <!-- CONTEXTO -->
 
 <section class="slide">
 
-    <div class="content">
+    <div class="slide-inner">
 
         <h2>¿Por qué CONECTA-VIH?</h2>
 
         <p>
-            Cada año se generan cientos de secuencias de VIH como parte
-            del proceso de genotipificación de resistencia.
+            Cada año se generan cientos de secuencias de VIH durante los procesos de genotipificación de resistencia.
         </p>
 
         <p>
-            Tradicionalmente estas secuencias son utilizadas para apoyar
-            decisiones terapéuticas.
+            Tradicionalmente estas secuencias se utilizan para apoyar decisiones terapéuticas.
         </p>
 
         <p>
-            Sin embargo, también contienen información valiosa sobre
-            agrupamientos genéticos y patrones de conectividad molecular.
+            Sin embargo, también contienen información valiosa sobre agrupamientos genéticos y patrones de conectividad molecular.
         </p>
 
     </div>
@@ -83,19 +74,16 @@
 
 <section class="slide">
 
-    <div class="content">
+    <div class="slide-inner">
 
         <h2>La oportunidad</h2>
 
         <p>
-            Transformar datos generados rutinariamente durante la
-            vigilancia de resistencia en una plataforma nacional de
-            vigilancia molecular.
+            Aprovechar datos generados rutinariamente para construir una plataforma de vigilancia molecular del VIH.
         </p>
 
         <p>
-            Utilizando secuencias obtenidas entre 2013 y 2024 junto con
-            variables epidemiológicas asociadas.
+            Integrando información genética y epidemiológica para explorar patrones de agrupamiento a escala nacional.
         </p>
 
     </div>
@@ -106,7 +94,7 @@
 
 <section class="slide">
 
-    <div class="content">
+    <div class="slide-inner">
 
         <h2>Fuente de datos</h2>
 
@@ -125,7 +113,7 @@
         </ul>
 
         <p>
-            Cobertura nacional.
+            Cobertura nacional 2013–2024.
         </p>
 
     </div>
@@ -136,14 +124,18 @@
 
 <section class="slide">
 
-    <div class="content">
+    <div class="slide-inner">
 
         <h2>Flujo analítico</h2>
 
         <img
-            src="../images/conecta_vih_flujo.png"
-            alt="Flujo de trabajo"
+            src="img/conecta_vih_flujo.png"
+            alt="Flujo analítico"
             class="flow-image">
+
+        <p class="caption">
+            Recall → MAFFT → HIV-TRACE → R
+        </p>
 
     </div>
 
@@ -153,23 +145,23 @@
 
 <section class="slide">
 
-    <div class="content center">
+    <div class="slide-inner">
 
         <h2>Piloto 2019</h2>
 
         <div class="metrics">
 
-            <div>
+            <div class="metric">
                 <span>1171</span>
                 <p>Secuencias</p>
             </div>
 
-            <div>
+            <div class="metric">
                 <span>57</span>
                 <p>Clusterizados</p>
             </div>
 
-            <div>
+            <div class="metric">
                 <span>28</span>
                 <p>Clusters</p>
             </div>
@@ -184,7 +176,7 @@
 
 <section class="slide">
 
-    <div class="content">
+    <div class="slide-inner">
 
         <h2>Hallazgos preliminares</h2>
 
@@ -200,10 +192,7 @@
 
             <li>17 clusters interdepartamentales.</li>
 
-            <li>
-                Asociación entre perfil de resistencia
-                y pertenencia a clusters moleculares.
-            </li>
+            <li>Asociación entre perfil de resistencia y pertenencia a clusters.</li>
 
         </ul>
 
@@ -215,7 +204,7 @@
 
 <section class="slide">
 
-    <div class="content">
+    <div class="slide-inner">
 
         <h2>¿Qué sigue?</h2>
 
@@ -227,11 +216,11 @@
 
             <li>Caracterización temporal.</li>
 
-            <li>Evaluación de múltiples umbrales TN93.</li>
-
             <li>Visualización avanzada mediante Cytoscape.</li>
 
-            <li>Desarrollo de una plataforma de vigilancia molecular.</li>
+            <li>Evaluación de múltiples umbrales genéticos.</li>
+
+            <li>Desarrollo de una plataforma nacional de vigilancia molecular.</li>
 
         </ul>
 
@@ -241,15 +230,14 @@
 
 <!-- CIERRE -->
 
-<section class="slide final">
+<section class="slide final-slide">
 
-    <div class="content center">
+    <div class="slide-inner final-inner">
 
         <h2>CONECTA-VIH</h2>
 
         <p>
-            De la genotipificación de resistencia
-            a la vigilancia molecular del VIH.
+            De la genotipificación de resistencia a la vigilancia molecular del VIH.
         </p>
 
     </div>
@@ -258,4 +246,3 @@
 
 </body>
 </html>
-
