@@ -1,230 +1,278 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CONECTA-VIH</title>
 
-    <link rel="stylesheet" href="../css/styles.css">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>CONECTA-VIH</title>
+
+<link rel="stylesheet" href="../css/styles.css">
+<link rel="stylesheet" href="../css/conecta-vih.css">
+
 </head>
 
 <body>
 
 <header>
     <h1>CONECTA-VIH</h1>
-    <p>
-        Redes genéticas y patrones de agrupamiento molecular
-        del VIH en Perú (2013–2024)
-    </p>
 </header>
 
-<main>
+<!-- SLIDE 1 -->
 
-<section class="hero">
+<section class="slide hero-slide">
 
-    <h2>Proyecto de Vigilancia Molecular</h2>
+    <div class="hero-left">
 
-    <p>
-        CONECTA-VIH busca caracterizar redes genéticas y patrones de
-        agrupamiento molecular del VIH utilizando secuencias obtenidas
-        mediante genotipificación de resistencia.
-    </p>
+        <span class="tag">
+            Proyecto 02
+        </span>
 
-    <p>
-        El proyecto integra herramientas bioinformáticas y análisis
-        epidemiológicos para explorar patrones de conectividad genética
-        a nivel nacional.
-    </p>
+        <h1>CONECTA-VIH</h1>
+
+        <h2>
+            Redes genéticas y patrones de agrupamiento molecular
+            del VIH en Perú (2013–2024)
+        </h2>
+
+        <p>
+            Proyecto de vigilancia molecular basado en secuencias
+            obtenidas mediante genotipificación de resistencia.
+        </p>
+
+        <p>
+            Dilan Suárez-Agüero<br>
+            LRN VTS
+        </p>
+
+    </div>
+
+    <div class="hero-right">
+
+        <img
+            src="../images/red-vih.png"
+            alt="Red molecular VIH">
+
+    </div>
 
 </section>
 
-<section>
+<!-- SLIDE 2 -->
 
-    <h2>Objetivo General</h2>
+<section class="slide">
 
-    <p>
-        Caracterizar las redes genéticas y los patrones de agrupamiento
-        molecular del VIH en Perú utilizando secuencias obtenidas mediante
-        genotipificación de resistencia.
-    </p>
+    <div class="content-center">
+
+        <h2>¿Por qué estudiar redes moleculares?</h2>
+
+        <p>
+            Las secuencias obtenidas durante la genotipificación
+            de resistencia contienen información útil para
+            identificar agrupamientos genéticos y patrones
+            de conectividad molecular.
+        </p>
+
+    </div>
 
 </section>
 
-<section>
+<!-- SLIDE 3 -->
+
+<section class="slide">
+
+    <h2>Piloto 2019</h2>
+
+    <div class="metrics">
+
+        <div class="metric">
+            <span>1171</span>
+            <p>Secuencias</p>
+        </div>
+
+        <div class="metric">
+            <span>57</span>
+            <p>Clusterizados</p>
+        </div>
+
+        <div class="metric">
+            <span>28</span>
+            <p>Clusters</p>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- SLIDE 4 -->
+
+<section class="slide">
 
     <h2>Fuente de Datos</h2>
 
-    <ul>
-        <li>Secuencias obtenidas mediante genotipificación de resistencia.</li>
-        <li>Periodo de estudio: 2013–2024.</li>
-        <li>Piloto inicial: año 2019.</li>
-        <li>Variables epidemiológicas y moleculares asociadas.</li>
-    </ul>
+    <p>
+        Secuencias obtenidas mediante genotipificación
+        de resistencia.
+    </p>
 
     <p>
-        <strong>Importante:</strong> La población estudiada corresponde
-        a individuos que tuvieron una prueba de genotipificación de
-        resistencia y no necesariamente a personas recién diagnosticadas.
+        Proyecto completo: 2013–2024
+    </p>
+
+    <p>
+        Piloto: 1171 secuencias del año 2019.
     </p>
 
 </section>
 
-<section>
+<!-- SLIDE 5 -->
 
-    <h2>Pipeline Analítico</h2>
+<section class="slide">
 
-    <div class="cards">
+    <h2>Flujo Analítico</h2>
 
-        <div class="card">
+    <div class="pipeline">
+
+        <div class="step">
+
             <h3>Recall</h3>
-            <p>Control de calidad y ensamblaje de secuencias Sanger.</p>
+
+            <p>
+                Control de calidad y ensamblaje
+            </p>
+
         </div>
 
-        <div class="card">
+        <div class="arrow">→</div>
+
+        <div class="step">
+
             <h3>MAFFT</h3>
-            <p>Alineamiento múltiple de secuencias en Linux.</p>
+
+            <p>
+                Alineamiento (Linux)
+            </p>
+
         </div>
 
-        <div class="card">
+        <div class="arrow">→</div>
+
+        <div class="step">
+
             <h3>HIV-TRACE</h3>
+
             <p>
-                Cálculo de distancias TN93 y construcción
-                de redes moleculares.
+                Distancias TN93 y red molecular
             </p>
+
         </div>
 
-        <div class="card">
+        <div class="arrow">→</div>
+
+        <div class="step">
+
             <h3>R</h3>
+
             <p>
-                Análisis epidemiológico y estadístico.
+                Análisis epidemiológico
             </p>
+
         </div>
 
     </div>
 
 </section>
 
-<section>
+<!-- SLIDE 6 -->
 
-    <h2>Resultados Preliminares (Piloto 2019)</h2>
-
-    <div class="cards">
-
-        <div class="card">
-            <h3>1171</h3>
-            <p>Secuencias analizadas</p>
-        </div>
-
-        <div class="card">
-            <h3>57</h3>
-            <p>Individuos clusterizados</p>
-        </div>
-
-        <div class="card">
-            <h3>28</h3>
-            <p>Clusters identificados</p>
-        </div>
-
-    </div>
-
-</section>
-
-<section>
+<section class="slide">
 
     <h2>Red Molecular</h2>
 
-    <p>
-        Red molecular construida utilizando HIV-TRACE
-        con distancia genética TN93.
-    </p>
-
-    <img src="../images/red-vih.png"
-         alt="Red molecular VIH"
-         style="max-width:100%; border-radius:12px;">
+    <img
+        class="network-image"
+        src="../images/red-vih.png"
+        alt="Red molecular">
 
 </section>
 
-<section>
+<!-- SLIDE 7 -->
+
+<section class="slide">
 
     <h2>Hallazgos Preliminares</h2>
 
     <ul>
-        <li>57 individuos pertenecieron a clusters moleculares (4.9%).</li>
-        <li>Se identificaron 28 clusters.</li>
-        <li>27 clusters correspondieron a díadas.</li>
-        <li>1 cluster correspondió a una tríada.</li>
-        <li>11 clusters fueron intradepartamentales.</li>
-        <li>17 clusters fueron interdepartamentales.</li>
+
+        <li>57 individuos clusterizados (4.9%).</li>
+
+        <li>28 clusters identificados.</li>
+
+        <li>27 díadas y 1 tríada.</li>
+
+        <li>11 clusters intradepartamentales.</li>
+
+        <li>17 clusters interdepartamentales.</li>
+
         <li>
-            Los individuos con virus sensibles mostraron mayor
-            probabilidad de pertenecer a clusters moleculares
-            (OR ≈ 2.8).
+            OR ≈ 2.8 para virus sensibles.
         </li>
+
     </ul>
 
 </section>
 
-<section>
+<!-- SLIDE 8 -->
 
-    <h2>Herramientas Utilizadas</h2>
-
-    <div class="cards">
-
-        <div class="card">
-            <h3>Recall</h3>
-        </div>
-
-        <div class="card">
-            <h3>MAFFT</h3>
-        </div>
-
-        <div class="card">
-            <h3>HIV-TRACE</h3>
-        </div>
-
-        <div class="card">
-            <h3>R</h3>
-        </div>
-
-    </div>
-
-</section>
-
-<section>
+<section class="slide">
 
     <h2>Próximos Pasos</h2>
 
+    <div class="timeline">
+
+        <div>2019 ✓</div>
+
+        <div>2020</div>
+
+        <div>2021</div>
+
+        <div>2022</div>
+
+        <div>2023</div>
+
+        <div>2024</div>
+
+    </div>
+
     <ul>
-        <li>Integración de la cohorte nacional 2013–2024.</li>
-        <li>Evaluación de múltiples umbrales TN93.</li>
-        <li>Análisis espacial de agrupamientos.</li>
-        <li>Caracterización temporal de clusters.</li>
-        <li>Visualización avanzada mediante Cytoscape.</li>
-        <li>Evaluación de mutaciones asociadas a resistencia.</li>
+
+        <li>Análisis espacial.</li>
+
+        <li>Múltiples umbrales TN93.</li>
+
+        <li>Cytoscape.</li>
+
+        <li>Publicación científica.</li>
+
     </ul>
 
 </section>
 
-<section>
+<!-- SLIDE 9 -->
 
-    <h2>Impacto Esperado</h2>
+<section class="slide final-slide">
+
+    <h2>CONECTA-VIH</h2>
 
     <p>
-        CONECTA-VIH busca transformar datos generados rutinariamente
-        durante la genotipificación de resistencia en información útil
-        para comprender los patrones de agrupamiento molecular del VIH
-        en Perú y fortalecer estrategias de vigilancia molecular.
+        Transformando datos de resistencia
+        en vigilancia molecular del VIH
+        en Perú.
     </p>
 
 </section>
 
-</main>
-
-<footer>
-    <p>
-        © 2026 Dilan Suárez-Agüero | Proyecto CONECTA-VIH
-    </p>
-</footer>
-
 </body>
 </html>
+
+
