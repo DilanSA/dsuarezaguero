@@ -1,162 +1,276 @@
-.slide{
+/* -------------------- */
+/* CONFIGURACIÓN GLOBAL */
+/* -------------------- */
 
-    min-height:100vh;
+.slide {
 
-    display:flex;
+    min-height: 100vh;
 
-    align-items:center;
+    padding: 50px;
 
-    justify-content:center;
+    display: flex;
 
-    padding:80px;
+    justify-content: center;
 
-}
-
-.content{
-
-    max-width:900px;
+    align-items: center;
 
 }
 
-.content h2{
+/* -------------------- */
+/* MARCO DE DIAPOSITIVA */
+/* -------------------- */
 
-    font-size:3rem;
+.slide-inner {
 
-    margin-bottom:40px;
+    width: 100%;
 
-}
+    max-width: 1400px;
 
-.content p,
-.content li{
+    min-height: 85vh;
 
-    font-size:1.4rem;
+    background: white;
 
-    line-height:1.8;
+    border: 2px solid #e5e7eb;
 
-}
+    border-radius: 24px;
 
-.hero{
+    padding: 80px;
 
-    text-align:center;
+    display: flex;
 
-    position:relative;
+    flex-direction: column;
 
-}
+    justify-content: center;
 
-.hero-content{
-
-    max-width:900px;
-
-    z-index:2;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.05);
 
 }
 
-.hero-tag{
+/* -------------------- */
+/* PORTADA */
+/* -------------------- */
 
-    font-size:1rem;
+.hero-inner {
 
-    letter-spacing:2px;
+    background: linear-gradient(
+        135deg,
+        #0f172a,
+        #1e293b
+    );
 
-    text-transform:uppercase;
+    color: white;
 
-}
+    border: none;
 
-.hero h1{
-
-    font-size:6rem;
-
-    margin:20px 0;
-
-}
-
-.hero-subtitle{
-
-    font-size:2rem;
-
-    line-height:1.4;
+    text-align: center;
 
 }
 
-.hero-period{
+.hero-tag {
 
-    margin-top:30px;
+    text-transform: uppercase;
 
-    font-size:1.3rem;
+    letter-spacing: 3px;
 
-    font-weight:bold;
-
-}
-
-.hero-author{
-
-    margin-top:40px;
+    opacity: .8;
 
 }
 
-.hero-image{
+.hero h1 {
 
-    width:900px;
+    font-size: 6rem;
 
-    max-width:90%;
-
-    margin-top:50px;
-
-    opacity:.9;
+    margin: 20px 0;
 
 }
 
-.metrics{
+.hero-subtitle {
 
-    display:flex;
+    font-size: 2rem;
 
-    justify-content:center;
+    max-width: 900px;
 
-    gap:120px;
-
-    margin-top:80px;
+    margin: auto;
 
 }
 
-.metrics span{
+.hero-years {
 
-    display:block;
+    margin-top: 20px;
 
-    font-size:5rem;
+    font-size: 1.3rem;
 
-    font-weight:700;
-
-}
-
-.metrics p{
-
-    text-align:center;
+    font-weight: 600;
 
 }
 
-.flow-image{
+.hero-image {
 
-    width:100%;
+    max-width: 800px;
 
-    max-width:1000px;
+    width: 90%;
 
-    margin-top:40px;
-
-}
-
-.center{
-
-    text-align:center;
+    margin: 50px auto;
 
 }
 
-.final h2{
+.hero-author {
 
-    font-size:5rem;
+    opacity: .9;
 
 }
 
-.final p{
+/* -------------------- */
+/* CONTENIDO */
+/* -------------------- */
 
-    font-size:2rem;
+.slide-inner h2 {
+
+    font-size: 3.5rem;
+
+    margin-bottom: 40px;
+
+}
+
+.slide-inner p,
+.slide-inner li {
+
+    font-size: 1.4rem;
+
+    line-height: 1.8;
+
+}
+
+.slide-inner ul {
+
+    margin-top: 20px;
+
+    padding-left: 30px;
+
+}
+
+/* -------------------- */
+/* MÉTRICAS */
+/* -------------------- */
+
+.metrics {
+
+    display: flex;
+
+    justify-content: center;
+
+    gap: 120px;
+
+    margin-top: 80px;
+
+}
+
+.metric {
+
+    text-align: center;
+
+}
+
+.metric span {
+
+    display: block;
+
+    font-size: 6rem;
+
+    font-weight: 700;
+
+}
+
+.metric p {
+
+    margin-top: 10px;
+
+}
+
+/* -------------------- */
+/* IMÁGENES */
+/* -------------------- */
+
+.flow-image {
+
+    width: 100%;
+
+    max-width: 1100px;
+
+    margin: auto;
+
+}
+
+.caption {
+
+    text-align: center;
+
+    margin-top: 20px;
+
+    color: #6b7280;
+
+}
+
+/* -------------------- */
+/* CIERRE */
+/* -------------------- */
+
+.final-inner {
+
+    background: linear-gradient(
+        135deg,
+        #0f172a,
+        #1e293b
+    );
+
+    color: white;
+
+    border: none;
+
+    text-align: center;
+
+}
+
+.final-inner h2 {
+
+    font-size: 5rem;
+
+}
+
+.final-inner p {
+
+    font-size: 2rem;
+
+    max-width: 800px;
+
+    margin: auto;
+
+}
+
+/* -------------------- */
+/* RESPONSIVE */
+/* -------------------- */
+
+@media (max-width: 900px) {
+
+    .hero h1 {
+
+        font-size: 4rem;
+
+    }
+
+    .slide-inner {
+
+        padding: 40px;
+
+    }
+
+    .metrics {
+
+        flex-direction: column;
+
+        gap: 50px;
+
+    }
 
 }
