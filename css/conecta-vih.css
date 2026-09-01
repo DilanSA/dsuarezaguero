@@ -1,0 +1,95 @@
+.slide{
+
+    min-height:100vh;
+
+    padding:80px;
+
+    display:flex;
+
+    flex-direction:column;
+
+    justify-content:center;
+
+}
+
+.hero-slide{
+
+    display:grid;
+
+    grid-template-columns:1fr 1fr;
+
+    gap:60px;
+
+}
+
+.hero-slide h1{
+
+    font-size:5rem;
+
+}
+
+.metrics{
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:40px;
+
+}
+
+.metric{
+
+    text-align:center;
+
+}
+
+.metric span{
+
+    font-size:5rem;
+
+    font-weight:700;
+
+}
+
+.pipeline{
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    gap:20px;
+
+    flex-wrap:wrap;
+
+}
+
+.step{
+
+    padding:25px;
+
+    border-radius:12px;
+
+    background:white;
+
+}
+
+.network-image{
+
+    max-width:900px;
+
+    margin:auto;
+
+}
+
+.timeline{
+
+    display:flex;
+
+    gap:20px;
+
+    flex-wrap:wrap;
+
+}
