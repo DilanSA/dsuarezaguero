@@ -1,132 +1,230 @@
-<section class="conecta-vih">
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONECTA-VIH</title>
 
-  <div class="hero">
-    <div class="hero-content">
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
 
-      <span class="badge">Proyecto 02</span>
+<body>
 
-      <h1>CONECTA-VIH</h1>
-
-      <h2>
+<header>
+    <h1>CONECTA-VIH</h1>
+    <p>
         Redes genéticas y patrones de agrupamiento molecular
         del VIH en Perú (2013–2024)
-      </h2>
+    </p>
+</header>
 
-      <p>
-        Proyecto orientado a caracterizar redes moleculares del VIH
-        utilizando secuencias de genotipificación de resistencia,
-        herramientas bioinformáticas y análisis epidemiológicos.
-      </p>
+<main>
 
-    </div>
+<section class="hero">
 
-    <div class="hero-network">
-      <img src="images/red-vih.png" alt="Red molecular VIH">
-    </div>
-  </div>
-
-  <section class="project-summary">
-    <h3>Resumen</h3>
+    <h2>Proyecto de Vigilancia Molecular</h2>
 
     <p>
-      CONECTA-VIH busca transformar datos generados rutinariamente
-      durante la genotipificación de resistencia en información útil
-      para comprender patrones de agrupamiento molecular del VIH
-      en Perú.
+        CONECTA-VIH busca caracterizar redes genéticas y patrones de
+        agrupamiento molecular del VIH utilizando secuencias obtenidas
+        mediante genotipificación de resistencia.
     </p>
-  </section>
 
-  <section class="metrics">
-
-    <div class="metric-card">
-      <h4>1171</h4>
-      <span>Secuencias</span>
-    </div>
-
-    <div class="metric-card">
-      <h4>57</h4>
-      <span>Clusterizados</span>
-    </div>
-
-    <div class="metric-card">
-      <h4>28</h4>
-      <span>Clusters</span>
-    </div>
-
-  </section>
-
-  <section class="pipeline">
-
-    <h3>Pipeline Analítico</h3>
-
-    <div class="pipeline-flow">
-
-      <div class="step">
-        <h4>Recall</h4>
-        <p>Control de calidad y ensamblaje</p>
-      </div>
-
-      <div class="arrow">→</div>
-
-      <div class="step">
-        <h4>MAFFT</h4>
-        <p>Alineamiento</p>
-      </div>
-
-      <div class="arrow">→</div>
-
-      <div class="step">
-        <h4>HIV-TRACE</h4>
-        <p>Red molecular y TN93</p>
-      </div>
-
-      <div class="arrow">→</div>
-
-      <div class="step">
-        <h4>R</h4>
-        <p>Análisis epidemiológico</p>
-      </div>
-
-    </div>
-
-  </section>
-
-  <section class="network">
-
-    <h3>Red Molecular (Piloto 2019)</h3>
-
-    <img src="images/red-vih.png" alt="Red molecular VIH">
-
-  </section>
-
-  <section class="findings">
-
-    <h3>Hallazgos Preliminares</h3>
-
-    <ul>
-      <li>57 individuos clusterizados (4.9%)</li>
-      <li>28 clusters identificados</li>
-      <li>27 díadas y 1 tríada</li>
-      <li>17 clusters interdepartamentales</li>
-      <li>OR ≈ 2.8 para virus sensibles</li>
-    </ul>
-
-  </section>
-
-  <section class="next-steps">
-
-    <h3>Próximos Pasos</h3>
-
-    <div class="roadmap">
-
-      <div>2019 ✓</div>
-      <div>2020–2024</div>
-      <div>Análisis espacial</div>
-      <div>Cytoscape</div>
-      <div>Publicación</div>
-
-    </div>
-
-  </section>
+    <p>
+        El proyecto integra herramientas bioinformáticas y análisis
+        epidemiológicos para explorar patrones de conectividad genética
+        a nivel nacional.
+    </p>
 
 </section>
+
+<section>
+
+    <h2>Objetivo General</h2>
+
+    <p>
+        Caracterizar las redes genéticas y los patrones de agrupamiento
+        molecular del VIH en Perú utilizando secuencias obtenidas mediante
+        genotipificación de resistencia.
+    </p>
+
+</section>
+
+<section>
+
+    <h2>Fuente de Datos</h2>
+
+    <ul>
+        <li>Secuencias obtenidas mediante genotipificación de resistencia.</li>
+        <li>Periodo de estudio: 2013–2024.</li>
+        <li>Piloto inicial: año 2019.</li>
+        <li>Variables epidemiológicas y moleculares asociadas.</li>
+    </ul>
+
+    <p>
+        <strong>Importante:</strong> La población estudiada corresponde
+        a individuos que tuvieron una prueba de genotipificación de
+        resistencia y no necesariamente a personas recién diagnosticadas.
+    </p>
+
+</section>
+
+<section>
+
+    <h2>Pipeline Analítico</h2>
+
+    <div class="cards">
+
+        <div class="card">
+            <h3>Recall</h3>
+            <p>Control de calidad y ensamblaje de secuencias Sanger.</p>
+        </div>
+
+        <div class="card">
+            <h3>MAFFT</h3>
+            <p>Alineamiento múltiple de secuencias en Linux.</p>
+        </div>
+
+        <div class="card">
+            <h3>HIV-TRACE</h3>
+            <p>
+                Cálculo de distancias TN93 y construcción
+                de redes moleculares.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>R</h3>
+            <p>
+                Análisis epidemiológico y estadístico.
+            </p>
+        </div>
+
+    </div>
+
+</section>
+
+<section>
+
+    <h2>Resultados Preliminares (Piloto 2019)</h2>
+
+    <div class="cards">
+
+        <div class="card">
+            <h3>1171</h3>
+            <p>Secuencias analizadas</p>
+        </div>
+
+        <div class="card">
+            <h3>57</h3>
+            <p>Individuos clusterizados</p>
+        </div>
+
+        <div class="card">
+            <h3>28</h3>
+            <p>Clusters identificados</p>
+        </div>
+
+    </div>
+
+</section>
+
+<section>
+
+    <h2>Red Molecular</h2>
+
+    <p>
+        Red molecular construida utilizando HIV-TRACE
+        con distancia genética TN93.
+    </p>
+
+    <img src="../images/red-vih.png"
+         alt="Red molecular VIH"
+         style="max-width:100%; border-radius:12px;">
+
+</section>
+
+<section>
+
+    <h2>Hallazgos Preliminares</h2>
+
+    <ul>
+        <li>57 individuos pertenecieron a clusters moleculares (4.9%).</li>
+        <li>Se identificaron 28 clusters.</li>
+        <li>27 clusters correspondieron a díadas.</li>
+        <li>1 cluster correspondió a una tríada.</li>
+        <li>11 clusters fueron intradepartamentales.</li>
+        <li>17 clusters fueron interdepartamentales.</li>
+        <li>
+            Los individuos con virus sensibles mostraron mayor
+            probabilidad de pertenecer a clusters moleculares
+            (OR ≈ 2.8).
+        </li>
+    </ul>
+
+</section>
+
+<section>
+
+    <h2>Herramientas Utilizadas</h2>
+
+    <div class="cards">
+
+        <div class="card">
+            <h3>Recall</h3>
+        </div>
+
+        <div class="card">
+            <h3>MAFFT</h3>
+        </div>
+
+        <div class="card">
+            <h3>HIV-TRACE</h3>
+        </div>
+
+        <div class="card">
+            <h3>R</h3>
+        </div>
+
+    </div>
+
+</section>
+
+<section>
+
+    <h2>Próximos Pasos</h2>
+
+    <ul>
+        <li>Integración de la cohorte nacional 2013–2024.</li>
+        <li>Evaluación de múltiples umbrales TN93.</li>
+        <li>Análisis espacial de agrupamientos.</li>
+        <li>Caracterización temporal de clusters.</li>
+        <li>Visualización avanzada mediante Cytoscape.</li>
+        <li>Evaluación de mutaciones asociadas a resistencia.</li>
+    </ul>
+
+</section>
+
+<section>
+
+    <h2>Impacto Esperado</h2>
+
+    <p>
+        CONECTA-VIH busca transformar datos generados rutinariamente
+        durante la genotipificación de resistencia en información útil
+        para comprender los patrones de agrupamiento molecular del VIH
+        en Perú y fortalecer estrategias de vigilancia molecular.
+    </p>
+
+</section>
+
+</main>
+
+<footer>
+    <p>
+        © 2026 Dilan Suárez-Agüero | Proyecto CONECTA-VIH
+    </p>
+</footer>
+
+</body>
+</html>
